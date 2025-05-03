@@ -1,0 +1,24 @@
+.layout {
+  min-height: 100vh;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    .menu {
+      flex: 1;
+      justify-content: flex-end;
+    }
+  }
+
+  .content {
+    padding: 0 48px;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    .innerContent {
+      flex: 1;
+      margin-block: 24px;
+    }
+  }
+}
